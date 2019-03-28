@@ -7,18 +7,31 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Project BUBO
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <div>
+              <a
+                className="App-link"
+                href="https://omniist.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Omniist
+              </a>
+              <i> - Always Be Improving</i>
+          </div>
+          <div>
+              <a
+                className="App-link"
+                href="https://www.codinginfire.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              Coding In Fire
+              </a>
+              <i> - Automate Everything</i>
+          </div>
         </header>
       </div>
     );
