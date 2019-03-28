@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import bubo from './Bubo2.jpg';
 import './App.css';
 
 class App extends Component {
@@ -10,6 +11,16 @@ class App extends Component {
           <p>
             Project BUBO
           </p>
+          <p>
+            Brilliant
+            Universal
+            Biblionic
+            Opticalizer
+          </p>
+          <img src={bubo} />
+
+          <br/>
+
           <div>
               <a
                 className="App-link"
